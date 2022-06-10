@@ -1,0 +1,65 @@
+.ava-select {
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+}
+
+.MuiDialogTitle-root + .css-ypiqx9-MuiDialogContent-root {
+  display: flex;
+  justify-content: center;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  background: url("../../images/pattern-tile-lite.SVG") repeat;
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-size: 105px auto;
+}
+
+.cancel-btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: var(--light-red-color);
+  border-radius: 6px;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 10px 10px var(--shadow-color);
+  width: fit-content;
+  padding: 5px 25px;
+  font-size: 18px;
+  transition: all 0.1s ease;
+  margin: 20px 20px 20px 10px;
+}
+
+.cancel-btn:hover {
+  transition: all 0.1s ease;
+  background-color: #efefef;
+}
+
+.cancel-btn:active {
+  transform: translate(10px, 10px);
+  box-shadow: none;
+}
+
+.agree-btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: var(--yellow-color);
+  border-radius: 6px;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 10px 10px var(--shadow-color);
+  width: fit-content;
+  padding: 5px 25px;
+  font-size: 18px;
+  transition: all 0.1s ease;
+  margin: 20px 20px 20px 10px;
+}
+
+.agree-btn:hover {
+  transition: all 0.1s ease;
+  background-color: #efefef;
+}
+
+.agree-btn:active {
+  transform: translate(10px, 10px);
+  box-shadow: none;
+}

@@ -1,0 +1,145 @@
+.container-person {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 70px 0 0 0;
+}
+
+.avatar-btn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  object-fit: cover;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 10px 10px var(--shadow-color);
+}
+
+.input {
+  display: none;
+}
+
+.change-avatar-btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: var(--light-blue-color);
+  border-radius: 6px;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 10px 10px var(--shadow-color);
+  width: fit-content;
+  padding: 5px 25px;
+  font-size: 18px;
+  transition: all 0.1s ease;
+  margin: 20px 20px 20px 10px;
+}
+
+.change-avatar-btn:hover {
+  transition: all 0.1s ease;
+  background-color: #efefef;
+}
+
+.change-avatar-btn:active {
+  transform: translate(10px, 10px);
+  box-shadow: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 25px;
+  border-radius: 6px;
+  width: 33%;
+
+  p {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+.btn-change-info {
+  cursor: pointer;
+  background-color: var(--light-red-color);
+  border-radius: 6px;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 10px 10px var(--shadow-color);
+  width: fit-content;
+  padding: 5px 25px;
+  font-size: 18px;
+  transition: all 0.1s ease;
+  margin: 20px 20px 20px 0px;
+}
+
+.btn-change-info:hover {
+  transition: all 0.1s ease;
+  background-color: #efefef;
+}
+
+.btn-change-info:active {
+  transform: translate(10px, 10px);
+  box-shadow: none;
+}
+
+.rating-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 260px;
+}
+.img-pers {
+  margin-top: 38%;
+}
+
+.rating {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 25px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.MuiRating-iconFilled {
+  color: var(--light-red-color) !important;
+}
+.MuiRating-iconHover {
+  color: var(--red-color) !important;
+}
+
+.btn-read-review {
+  cursor: pointer;
+  background-color: var(--light-green-color);
+  border-radius: 6px;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 10px 10px var(--shadow-color);
+  width: fit-content;
+  padding: 5px 25px;
+  font-size: 18px;
+  transition: all 0.1s ease;
+  margin: 20px 20px 20px 0px;
+}
+
+.btn-read-review:hover {
+  transition: all 0.1s ease;
+  background-color: #efefef;
+}
+
+.btn-read-review:active {
+  transform: translate(10px, 10px);
+  box-shadow: none;
+}
+
+.img-pers {
+  width: 100%;
+}

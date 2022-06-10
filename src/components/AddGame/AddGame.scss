@@ -1,0 +1,40 @@
+.game-div {
+  margin: 8px;
+  min-width: 285px;
+
+  div {
+    width: 100%;
+    border-radius: 6px !important;
+  }
+
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: white;
+    width: -webkit-fill-available;
+    border-radius: 6px;
+  }
+
+  .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+    background-color: white;
+  }
+}
+
+.input-form-game {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+
+  div {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.game-add {
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    min-width: 700px;
+  }
+}

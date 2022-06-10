@@ -1,0 +1,165 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.margin.MuiFormControl-root {
+  margin: 8px;
+}
+
+.margin.MuiFormControl-root:last-child {
+  align-items: center;
+}
+
+.textField {
+  width: auto;
+}
+
+.auth-div-login {
+  margin: 8px;
+
+  div {
+    width: 100%;
+    border-radius: 6px !important;
+  }
+}
+
+.container-auth {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13%;
+
+  img {
+    max-width: 20%;
+    height: fit-content;
+  }
+}
+
+.container-auth:last-child {
+  align-items: flex-end;
+}
+
+.main-auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: calc(80vh - 10px);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main-auth-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 6px !important;
+  box-shadow: 10px 10px var(--shadow-color);
+  border: 1px solid var(--shadow-color);
+
+  h2 {
+    margin: 8px;
+    text-align: center;
+  }
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 6px !important;
+}
+
+.input-form-auth {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.MuiButton-outlinedPrimary.MuiButtonBase-root {
+  margin: 8px;
+}
+
+.auth-text {
+  margin: 8px;
+  cursor: pointer;
+}
+
+.auth-form {
+  width: 40%;
+}
+
+.img-start {
+  width: 30%;
+  margin-right: 70px;
+}
+
+.button-auth {
+  cursor: pointer;
+  background-color: var(--light-green-color);
+  border-radius: 6px;
+  border: 1px solid var(--shadow-color);
+  box-shadow: 10px 10px var(--shadow-color);
+  width: fit-content;
+  padding: 5px 25px;
+  font-size: 18px;
+  transition: all 0.1s ease;
+  margin: 10px;
+  margin-left: -10px;
+}
+
+.button-auth:hover {
+  transition: all 0.1s ease;
+  background-color: #efefef;
+}
+
+.button-auth:active {
+  transform: translate(10px, 10px);
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1065px) {
+  .main-auth {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .main-auth-field {
+    width: 70%;
+    margin-top: 30px;
+  }
+
+  .img-start {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .img-start {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .MuiInputBase-input.MuiOutlinedInput-input {
+    min-width: 120px;
+  }
+
+  .img-start {
+    width: 50%;
+  }
+}

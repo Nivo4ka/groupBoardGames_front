@@ -1,13 +1,73 @@
 body {
+  overflow-x: hidden;
+  /* color: #120c40; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: overlay;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html * /* override x.xhtml.ru style */ {
+  scrollbar-width: thin;
+  scrollbar-color: #626262 rgba(255, 166, 0, 0);
+}
+
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar {
+  height: 12px;
+  width: 10px;
+  /* background: url("/src/images/cross-dot-color.SVG") repeat; */
+  background-color: #ffffff00;
+  background-repeat: repeat;
+  background-size: 45px auto;
+  background-position: top center;
+}
+
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+  /* width: 12px; */
+}
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb {
+  /* transition: any 0.3s forwards; */
+  transform: translateY(-50%) rotate(180deg);
+  background-color: #626262;
+  /* width: 5px; */
+  border-radius: 5px;
+  margin: -4px;
+  padding: 3px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  /* border: 3px solid rgba(255, 166, 0, 0); */
+  visibility: hidden;
+  /* opacity: 0; */
+  /* animation: any 0.3s forwards; */
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+  transition: all 0.3s ease !important;
+}
+
+*::-webkit-scrollbar-thumb:hover,
+html *::-webkit-scrollbar-thumb:hover {
+  /* transform: translateY(-50%) rotate(180deg); */
+  /* animation: any 0.3s forwards; */
+  visibility: visible;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

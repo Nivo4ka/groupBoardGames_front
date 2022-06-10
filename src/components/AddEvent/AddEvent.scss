@@ -1,0 +1,48 @@
+.event-div {
+  margin: 8px;
+  min-width: 285px;
+
+  div {
+    width: 100%;
+    border-radius: 6px !important;
+  }
+
+  .css-wb57ya-MuiFormControl-root-MuiTextField-root {
+    background-color: white;
+    width: -webkit-fill-available;
+    max-width: 285px;
+
+    .css-1q60rmi-MuiAutocomplete-endAdornment {
+      width: max-content;
+    }
+
+    .css-16awh2u-MuiAutocomplete-root .MuiAutocomplete-tag {
+      width: fit-content;
+    }
+  }
+
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: white;
+    width: -webkit-fill-available;
+    border-radius: 6px;
+  }
+
+  .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    width: -webkit-fill-available;
+  }
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  background-color: white;
+  width: -webkit-fill-available;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 6px !important;
+  width: 100%;
+
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: white;
+    width: -webkit-fill-available;
+  }
+}
